@@ -25,11 +25,11 @@ myled = 1;
 bat=bat*1000;
 sprintf (buffer, "%f", bat);
 pi.cls();
-//afficher  su r le LCD
+//afficher la tempuratutre  sur  LCD du robot  su r le LCD
 pi.printf(buffer);
 //pc.printf(buffer);
 //pc.printf("%f",bat );
-pi.line_position();
+//pi.line_position();
 wait(0.5);
 }
 }
